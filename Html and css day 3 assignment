@@ -1,0 +1,118 @@
+Html :
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css" class="css">
+    <title>html - css assignment</title>
+</head>
+<body>
+    <div class="container">
+    <div class="one">1</div>
+    <div class="two">2</div>
+    <div class="three">3</div>
+    <div class="four">4</div>
+    <div class="five">5</div>
+    <div class="six">6</div>
+    <div class="seven">7</div>
+    <!-- <div class="one">8</div>
+    <div class="two">9</div>
+    <div class="three">10</div>
+    <div class="four">11</div>
+    <div class="five">12</div>
+    <div class="six">13</div>
+    <div class="seven">14</div> -->
+    </div>
+</body>
+</html>
+
+
+Css :
+
+*{
+
+margin: 0;
+
+padding: 0;
+box-sizing: border-box;
+}
+
+.container{
+    background-color: powderblue;
+    display: flex;
+    height: 500px;
+    width: 600px;
+    margin: 20px;
+    
+    flex-wrap: wrap;
+
+
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+
+    align-items: center;
+    /* align-items:flex-start; */
+    /* align-items: flex-end; */
+
+}
+
+.one{
+background-color: red;
+height: 50px;
+width: 50px;
+font-size: 30px;
+}
+
+.two{
+    background-color: green;
+height: 50px;
+width: 50px;
+font-size: 30px;
+}
+
+.three{
+    background-color: yellow;
+height: 50px;
+width: 50px;
+font-size: 30px;
+}
+
+.four{
+    background-color: blue;
+height: 50px;
+width: 50px;
+font-size: 30px;
+}
+
+.five{
+    background-color: violet;
+height: 50px;
+width: 50px;
+font-size: 30px;
+}
+
+.six{
+    background-color: orange;
+height: 50px;
+width: 50px;
+font-size: 30px;
+}
+
+.seven{
+    background-color: lightslategray;
+height: 50px;
+width: 50px;
+font-size: 30px;
+}
